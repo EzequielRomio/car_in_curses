@@ -133,18 +133,13 @@ class Racetrack():
 
 ###########################################################################
 
-""" 
-donde empieza a recibir los comandos para manejar e ir imprimiendo la posicion actual
-
-MEDIO QUE ESTO NO LO ENTENDI BIEN, O AL MENOS ME SALIO HACERLO DE OTRA FORMA
-"""
 
 
 WIDHT = 60
 HEIGHT = 20
 
 racetrack = Racetrack(WIDHT, HEIGHT)
-driver = Person('Viru', 31, 36.7)
+driver = Person('Ezequiel', 31, 36.7)
 car = Car()
 
 screen = curses.initscr()
